@@ -1,0 +1,46 @@
+{
+  "employee": [
+    {
+      "id": 2,
+      "name": "Suamnth",
+      "address": "Hyderabad",
+      "phone": 8847684563,
+      "country": "India"
+    },
+    {
+      "id": 3,
+      "name": "Ismail",
+      "address": "Vizag",
+      "phone": 7747684563,
+      "country": "India"
+    },
+    {
+      "id": 5,
+      "name": "kishore",
+      "address": "Guntur",
+      "phone": "65983469",
+      "country": "IND"
+    },
+    {
+      "id": 6,
+      "name": "Vikram",
+      "address": "banglore",
+      "phone": "6754886478",
+      "country": "India"
+    },
+    {
+      "id": 7,
+      "name": "Sunil",
+      "address": "blore",
+      "phone": "674517835",
+      "country": "India"
+    },
+    {
+      "id": 8,
+      "name": "ravi",
+      "address": "blore",
+      "phone": "674517835",
+      "country": "India"
+    }
+  ]
+}

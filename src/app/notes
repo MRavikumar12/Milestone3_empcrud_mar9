@@ -1,0 +1,10 @@
+1)Create New Ang Project
+2)Create new service
+3)Install json server
+4)create json file as db.json
+5)now watch the json server
+6)Create Model Class for json data to access FakeCrud
+7)import Httpclient and formModules in (module.ts)
+8)import Httpclient in service.ts and write the methods in service for FakeCrud
+9)import Service in component.ts and write functions for CRUD.
+10)then display the data on browser using forms and tables. 
