@@ -1,4 +1,4 @@
-import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { HttpClient, HttpErrorResponse, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Injectable, OnInit } from '@angular/core';
 import { catchError, Observable, throwError } from 'rxjs';
 import { Employee } from './Model/employee';
@@ -12,6 +12,8 @@ export class EmployeeService implements OnInit {
 
   data:any;
 
+  myheadders=new HttpHeaders().set("authkey","value");
+  myparams=new HttpParams().set("employeedetails","value1");
   constructor(public http:HttpClient) { }
 
   ngOnInit(): void {
@@ -20,7 +22,7 @@ export class EmployeeService implements OnInit {
   //Get Data from json url
   GetDetails():Observable<any>
   {
-    return this.http.get(this.base_url);
+    return this.http.get(this.base_url,{headers:this.myheadders});
   }
   //Add New data to json server using url
   CreateDetails(data:any):Observable<any>

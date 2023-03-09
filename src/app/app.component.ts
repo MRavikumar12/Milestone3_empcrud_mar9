@@ -1,3 +1,4 @@
+import { HttpHeaders } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { EmployeeService } from './employee.service';
 import { Employee } from './Model/employee';
@@ -32,6 +33,8 @@ export class AppComponent {
   }
 
   updateData:any;
+
+ 
 //accessing services through constructor
   constructor(public service:EmployeeService){}
 
